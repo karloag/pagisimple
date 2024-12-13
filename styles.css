@@ -1,4 +1,5 @@
     /* General  */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,6 +35,7 @@ nav ul li a {
 }
 
 
+
 main {
     padding: 2%;
 }
@@ -43,7 +45,7 @@ footer {
     background-color: #333;
     color: white;
     padding: 10px;
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
