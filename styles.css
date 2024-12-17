@@ -73,7 +73,8 @@ main section h2 {
     display: flex;
     gap: 15px;
     justify-content: center;
-    margin-top: 20px;
+    margin: 1%;
+    background-color: black;
 }
 
 .gallery img {
