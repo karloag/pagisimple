@@ -1,24 +1,22 @@
-    /* General  */
-
 body {
     font-family:  'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
-    background-color: yellowgreen;
+    background-color:  grey;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-   /* background-color: #333; */
     color: #f4f4f4;
     padding: 10px 0;
     text-align: center;
 }
 
 header h1 {
-    margin: 0;
+
+   font-size: 3vw;
 }
 
 nav ul {
@@ -46,10 +44,10 @@ main {
 
 
 main section {
+    
     background-color: white;
-    padding: 1%;
-    border-radius: 0%;
-    margin: 0%;
+    padding: 3%;
+    margin: 4%;
 }
 
 
