@@ -66,7 +66,7 @@ main section h2 {
     color: #333;
 }
 
-/* Galeria  */
+/* Galeria  TODO FIX BOX RESIZE*/
 .gallery {
     display: flex;
     gap: 15px;
