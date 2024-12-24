@@ -86,7 +86,7 @@ main section h2 {
 form {
     max-width: 600px;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgb(181, 181, 181);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -100,10 +100,14 @@ form label {
 
 form input, form textarea {
     width: 100%;
+    height: auto;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    resize: vertical;
+    max-width: 96%;
+    max-height: calc(2*4em);
 }
 
 form button {
